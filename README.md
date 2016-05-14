@@ -6,6 +6,7 @@ Collection of management tools for managing/hosting Linux gameserver stats.
 **What does it do?**
    - Automated game statistics generation into HTML/PNG
       - Requires qstat (quakestat), html2ps, imagemagick convert
+   - Copy/refresh statistics with index pages
  
 **Games Supported**
 
@@ -32,27 +33,12 @@ Collection of management tools for managing/hosting Linux gameserver stats.
          - http://funcamp.net/w/ut.png
          - http://funcamp.net/w/et.html
          - http://funcamp.net/w/et.html
-   - $game/config-generate-$game.sh
-      - Generates a usable configuration file.
-   - $game/startup-generate-$game.sh
-      - Generates a usable gameserver startup script
-   - $game/$game-start-server.example.sh
-      - Example gameserver startup script
 
 ```
 ├── enemyterritory
-│   ├── config-generate-et.sh
-│   ├── et-start-server.example.sh
 │   ├── qstat-enemyterritory.sh
-│   └── startup-generate-et.sh
 ├── enemyterritory-legacy
-│   ├── config-generate-et.sh
-│   ├── et-start-server.example.sh
 │   ├── qstat-enemyterritory-legacy.sh
-│   └── startup-generate-et.sh
 └── urbanterror
-    ├── config-generate-ut.sh
     ├── qstat-urbanterror.sh
-    ├── startup-generate-ut.sh
-    └── ut-start-server.example.sh
 ```
