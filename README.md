@@ -1,7 +1,7 @@
 gameserver-stats
 ===================
 
-Collection of management tools for managing/hosting Linux gameserver stats.
+Generate and host Linux gameserver stats.
 
 **What does it do?**
    - Automated game statistics generation into HTML/PNG
